@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  margin-top: 60px;
+}
+
+.main {
+  width: 100%;
+}
+
+.main h1 {
+  color: #304ffe;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.main span {
+  display: flex;
+  align-items: flex-start;
+  height: 15px;
+  margin-bottom: 50px;
+  color: grey;
+}
+
+.main span svg {
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+
+.main p {
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.sidebar {
+  width: 250px;
+  margin-right: 40px;
+}
+
+.sidebar div {
+  box-shadow: #304ffe4a 0px 4px 15px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.realState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.realState svg {
+  font-size: 3rem;
+  color: #304ffe;
+  margin: 10px 0 20px;
+}
+
+.realState p {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.realState span {
+  display: flex;
+  align-items: center;
+  color: grey;
+  margin-top: 20px;
+}
+
+.realState span svg {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-left: 5px;
+  color: grey;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: grey;
+  height: 20px;
+  transition: all ease-in 0.1s;
+}
+
+.share button:hover {
+  color: #304ffe;
+}
+
+.share svg {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: #304ffe;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 0 !important;
+}
+.price p {
+  display: flex;
+  align-items: center;
+  color: grey;
+  margin-bottom: 20px;
+  height: 20px;
+}
+
+.price p svg {
+  font-size: 1.5rem;
+  margin-left: 5px;
+  color: #304ffe;
+}

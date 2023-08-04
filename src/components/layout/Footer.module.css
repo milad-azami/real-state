@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 80px 0 20px;
+  border-radius: 10px;
+  background-color: #304ffe;
+  color: #fff;
+}
+
+.desc {
+  width: 70%;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.desc h3 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}

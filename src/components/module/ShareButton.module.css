@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.container button {
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: grey;
+  height: 20px;
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+}
+
+.container:hover button {
+  color: #304ffe;
+}
+
+.container svg {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: #304ffe;
+}

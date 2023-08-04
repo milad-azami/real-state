@@ -1,0 +1,53 @@
+.container {
+  width: 250px;
+  border: 2px solid #304ffe58;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.icon svg {
+  font-size: 1.8rem;
+  background-color: #304ffe58;
+  color: #304ffe;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.title {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.location {
+  display: flex;
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.location svg {
+  margin-left: 5px;
+  font-size: 1rem;
+}
+
+.container span {
+  color: grey;
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.container a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #304ffe;
+}
+
+.container a svg {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #304ffe;
+  color: #fff;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+}
+
+.header ul li {
+  margin-left: 30px;
+}
+
+.login a {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #304ffe;
+  padding: 3px 7px;
+  border-radius: 5px;
+  transition: all ease-in 0.1s;
+}
+.login a:hover {
+  background-color: #304ffe;
+  color: #fff;
+}
+
+.login svg {
+  font-size: 25px;
+}
+
+.login span {
+  margin-right: 5px;
+}
+
+@media (max-width: 600px) {
+  .header ul li {
+    margin-left: 10px;
+  }
+}

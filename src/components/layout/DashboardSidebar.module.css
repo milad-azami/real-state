@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  padding: 30px 15px;
+  border-radius: 10px;
+  box-shadow: #304ffe4a 0px 4px 15px;
+  margin-left: 40px;
+  width: 220px;
+}
+
+.sidebar svg {
+  font-size: 3rem;
+  color: #304ffe;
+}
+
+.sidebar p {
+  color: grey;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.sidebar span {
+  background-color: #304ffe;
+  width: 100%;
+  height: 1px;
+  background-color: silver;
+  margin-bottom: 30px;
+}
+
+.sidebar a {
+  margin: 5px 0;
+  font-weight: 400;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+.button {
+  display: flex;
+  background: none;
+  border: none;
+  margin-top: 20px;
+  width: 100%;
+  text-align: right;
+  font-size: 1rem;
+  color: rgb(219, 5, 5);
+  cursor: pointer;
+}
+
+.button svg {
+  font-size: 1.2rem !important;
+  margin-left: 5px;
+  color: rgb(219, 5, 5) !important;
+}

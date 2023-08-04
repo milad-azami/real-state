@@ -1,0 +1,19 @@
+.container {
+  margin-bottom: 60px;
+}
+
+.container p {
+  margin-bottom: 5px;
+}
+
+.container input {
+  width: 110px;
+  border: 1px #304ffe dashed;
+  color: grey;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  height: 30px;
+  margin-left: 10px;
+  text-align: center;
+}
